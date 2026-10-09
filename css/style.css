@@ -1,0 +1,175 @@
+/* Mobile-first styles (no media query). */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #edf3f8;
+  color: #1b2f44;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #183653;
+  color: #ffffff;
+  text-align: center;
+  padding: 32px 16px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+main {
+  width: 92%;
+  margin: 24px auto 40px;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0 auto 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 26px;
+}
+
+figure {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  border: 3px solid #355875;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #183047;
+  text-align: center;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+figcaption {
+  padding: 12px;
+  font-size: 1.05rem;
+  font-weight: bold;
+}
+
+footer {
+  padding: 24px 16px;
+  background-color: #183653;
+  text-align: center;
+}
+
+footer a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+footer a:focus-visible {
+  outline: 3px solid #ffe28a;
+  outline-offset: 5px;
+}
+
+/* Tablet: 772px and wider. */
+@media (min-width: 772px) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  figure {
+    width: min(100%, 310px);
+    aspect-ratio: 1 / 1;
+    justify-self: center;
+    border-radius: 50%;
+  }
+
+  figure img {
+    height: 100%;
+  }
+
+  figcaption {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 16px 12px 24px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  figure:last-child {
+    grid-column: span 2;
+  }
+}
+
+/* Desktop: 992px and wider; keep the two-column grid. */
+@media (min-width: 992px) {
+  figure {
+    width: 100%;
+    aspect-ratio: auto;
+    border-radius: 0;
+  }
+
+  figure img {
+    height: 240px;
+  }
+
+  figcaption {
+    position: static;
+    padding: 12px;
+    background-color: transparent;
+  }
+
+  figure:nth-child(3n) {
+    grid-column: span 2;
+  }
+
+  figure:nth-child(3n) img {
+    height: 320px;
+  }
+}
+
+/* Honor the user's preference to reduce motion. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* The default colors above are light; these colors serve dark mode. */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #303b4c;
+    color: #f4f7fc;
+  }
+
+  header,
+  footer {
+    background-color: #101e30;
+  }
+
+  figure {
+    background-color: #1c2a40;
+    color: #ffe6a1;
+    border-color: #000000;
+  }
+
+  figcaption {
+    background-color: rgba(15, 26, 43, 0.92);
+  }
+}

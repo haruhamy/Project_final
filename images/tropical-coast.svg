@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-label="Turquoise water and a palm tree on a sunny coastline">
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop offset="0" stop-color="#59b4d5"/><stop offset="1" stop-color="#c6e9de"/></linearGradient>
+  <linearGradient id="water" x2="0" y2="1"><stop offset="0" stop-color="#298ea5"/><stop offset="1" stop-color="#f2d6a3"/></linearGradient>
+  </defs>
+  <rect width="720" height="480" fill="url(#sky)"/>
+  <circle cx="556" cy="103" r="53" fill="#ffeda2" opacity=".94"/>
+  <path d="M0 295 L120 168 L230 286 L350 136 L499 303 L610 193 L720 315 V480 H0Z" fill="#4fadb5" opacity=".78"/>
+  <path d="M0 374 L142 254 L245 325 L392 214 L529 347 L646 278 L720 340 V480 H0Z" fill="#298ea5"/>
+<path d="M0 302 Q205 279 398 310 T720 298 V480H0Z" fill="#4bc4ce"/>
+  <path d="M0 384 Q230 357 421 396 T720 370 V480 H0Z" fill="#168da5"/>
+  <path d="M0 465 Q147 395 275 430 T720 452 V480 H0Z" fill="#f3d9a4"/>
+  <path d="M90 449Q114 340 159 247" fill="none" stroke="#654d36" stroke-width="15" stroke-linecap="round"/>
+  <g stroke="#267755" stroke-width="22" stroke-linecap="round"><path d="M159 247q-84 -39 -135 -6"/><path d="M159 247q14 -72 70 -92"/><path d="M159 247q76 -31 120 -12"/><path d="M159 247q-38 56 -22 99"/></g>
+</svg>

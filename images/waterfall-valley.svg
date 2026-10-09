@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-label="A waterfall flowing between lush mountain cliffs">
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop offset="0" stop-color="#70b8b3"/><stop offset="1" stop-color="#d0e9d2"/></linearGradient>
+  <linearGradient id="water" x2="0" y2="1"><stop offset="0" stop-color="#347365"/><stop offset="1" stop-color="#204e59"/></linearGradient>
+  </defs>
+  <rect width="720" height="480" fill="url(#sky)"/>
+  <circle cx="556" cy="103" r="53" fill="#f4efc2" opacity=".94"/>
+  <path d="M0 295 L120 168 L230 286 L350 136 L499 303 L610 193 L720 315 V480 H0Z" fill="#538d7c" opacity=".78"/>
+  <path d="M0 374 L142 254 L245 325 L392 214 L529 347 L646 278 L720 340 V480 H0Z" fill="#347365"/>
+<path d="M0 405 L126 286 L239 383 L310 292 L390 388 L485 260 L612 363 L720 317 V480H0Z" fill="#204e59"/>
+  <path d="M335 310 Q350 337 337 380 L305 480H436L401 381Q385 345 391 311Z" fill="#9ee1df"/>
+  <path d="M358 324 Q369 377 352 438" fill="none" stroke="#e8fff1" stroke-width="13" opacity=".9"/>
+  <ellipse cx="366" cy="449" rx="126" ry="21" fill="#a8dce0" opacity=".6"/>
+  <g fill="#193d38"><circle cx="65" cy="347" r="60"/><circle cx="644" cy="361" r="61"/></g>
+</svg>

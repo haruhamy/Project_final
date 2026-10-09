@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-label="A quiet blue lake surrounded by green mountains">
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop offset="0" stop-color="#8ccae2"/><stop offset="1" stop-color="#d5ebf0"/></linearGradient>
+  <linearGradient id="water" x2="0" y2="1"><stop offset="0" stop-color="#2e788a"/><stop offset="1" stop-color="#1c5269"/></linearGradient>
+  </defs>
+  <rect width="720" height="480" fill="url(#sky)"/>
+  <circle cx="556" cy="103" r="53" fill="#ffeab7" opacity=".94"/>
+  <path d="M0 295 L120 168 L230 286 L350 136 L499 303 L610 193 L720 315 V480 H0Z" fill="#5b94a1" opacity=".78"/>
+  <path d="M0 374 L142 254 L245 325 L392 214 L529 347 L646 278 L720 340 V480 H0Z" fill="#2e788a"/>
+<path d="M0 334 Q170 303 353 333 T720 318 V480 H0Z" fill="url(#water)"/>
+  <g fill="none" stroke="#d9f3ed" stroke-width="4" opacity=".5"><path d="M82 367 q85 -14 176 0"/><path d="M395 400 q90 -13 205 0"/><path d="M180 444 q130 -18 290 0"/></g>
+  <path d="M0 353 Q95 329 200 352 L180 370 H0Z" fill="#376555"/>
+  <path d="M650 354 L720 335 V395 L611 368Z" fill="#376555"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-label="Layered red-rock cliffs in a sunlit canyon">
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop offset="0" stop-color="#80b2cf"/><stop offset="1" stop-color="#f8c5a5"/></linearGradient>
+  <linearGradient id="water" x2="0" y2="1"><stop offset="0" stop-color="#a45743"/><stop offset="1" stop-color="#723d3e"/></linearGradient>
+  </defs>
+  <rect width="720" height="480" fill="url(#sky)"/>
+  <circle cx="556" cy="103" r="53" fill="#ffebb4" opacity=".94"/>
+  <path d="M0 295 L120 168 L230 286 L350 136 L499 303 L610 193 L720 315 V480 H0Z" fill="#c47453" opacity=".78"/>
+  <path d="M0 374 L142 254 L245 325 L392 214 L529 347 L646 278 L720 340 V480 H0Z" fill="#a45743"/>
+<path d="M0 330 L94 327 L125 245 L233 243 L254 320 L345 316 L359 372 L492 370 L514 277 L600 274 L630 362 L720 357 V480 H0Z" fill="#d08a61"/>
+  <path d="M0 419 L135 393 L195 430 L360 365 L540 433 L720 390 V480 H0Z" fill="#723d3e"/>
+  <g stroke="#f5bf8d" stroke-width="5" opacity=".5"><path d="M78 353h129"/><path d="M500 359h141"/></g>
+</svg>
